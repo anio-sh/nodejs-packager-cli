@@ -56,7 +56,9 @@ printf "Cleaning up '%s'\n" "$TMPDIR" >&2
 #rm -rf "$TMPDIR"
 
 if [ $INSTALLER_EXIT_CODE -eq 0 ]; then
-	printf "If you are seeing this message, installation was succesful!\n"
+	printf "\e[1;32m%s\e[0m\n" "==========================================================="
+	printf "\e[1;32m%s\e[0m\n" "If you are seeing this message, installation was succesful!"
+	printf "\e[1;32m%s\e[0m\n" "==========================================================="
 fi
 
 exit $INSTALLER_EXIT_CODE
