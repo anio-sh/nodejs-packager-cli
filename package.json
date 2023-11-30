@@ -4,6 +4,6 @@
   },
   "dependencies": {
     "@anio-core-sh/js-utils": "^0.0.1",
-    "@anio-core-sh/nodejs-utils": "^0.0.1"
+    "@anio-core-sh/nodejs-utils": "^0.1.0"
   }
 }

@@ -6,7 +6,8 @@ import {loadResource as loadResourceSync} from "@anio-sh/bundler"
 
 import {
 	writeFileAtomicSync,
-	removeDirectorySync
+	removeDirectorySync,
+	removeFileSync
 } from "@anio-core-sh/nodejs-utils"
 
 import {
@@ -61,5 +62,5 @@ export default async function(project) {
 
 	removeDirectorySync(project.root)
 
-	await fs.unlink(project.pkg_out_path)
+	removeFileSync(project.pkg_out_path)
 }
