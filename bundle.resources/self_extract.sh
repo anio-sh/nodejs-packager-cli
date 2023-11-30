@@ -53,7 +53,7 @@ cd "$SAVED_PWD"
 
 printf "Cleaning up '%s'\n" "$TMPDIR" >&2
 
-#rm -rf "$TMPDIR"
+rm -rf "$TMPDIR"
 
 if [ $INSTALLER_EXIT_CODE -eq 0 ]; then
 	printf "\e[1;32m%s\e[0m\n" "==========================================================="
