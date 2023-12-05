@@ -1,4 +1,5 @@
 {
+  "private": true,
   "devDependencies": {
     "@anio-sh/bundler": "^0.3.0"
   },
